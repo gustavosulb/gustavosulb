@@ -166,7 +166,7 @@
                                 <span>welcome</span>
 
                                 <h2 class="font-family-alt title-extra-large-4">
-                                    Hey! I am <span class="text-color">Gustavo</span>.
+                                    Hey! I am <span style="color:white">Gustavo</span>.
                                 </h2>
                             </div>
                             <!-- //.hero-title -->
@@ -1234,10 +1234,10 @@
     <Script>
         VANTA.WAVES({
           el: ".hero",
-          zoom: 1.53
+          zoom: 1.53,
         })
 
-       
+       document.querySelector(".vanta-canvas").style.zIndex = 5;
 
 
         $( "#widget" ).mouseenter(function() {
